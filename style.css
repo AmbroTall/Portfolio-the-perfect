@@ -382,7 +382,7 @@ section .title::after{
 
 /* teams section styling */
 .teams .title::after{
-    content: "who with me";
+    content: "my projects";
 }
 .teams .carousel .card{
     background: #222;
@@ -695,11 +695,17 @@ footer{
 
 .icons-foot{
 font-size: 30px;
-color: purple;
 padding: 20px 0px;
 }
+.icons-foot a i{
+color: tomato;
+}
 
-.icons-foot i:hover{
+.fab, .icons-foot i:hover{
 cursor: pointer;
-color: crimson;
+color: #fff;
+}
+
+a{
+    color: unset;
 }
